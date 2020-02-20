@@ -1,0 +1,33 @@
+.container {
+  width: 425px;
+  margin: 50px auto;
+  border-bottom: 1px solid gray;
+  font-family: sans-serif;
+}
+.myPeeps {
+  border-bottom: 2px solid rgb(93, 145, 34);
+  margin: 0;
+  background-color: rgb(143, 186, 79);
+  color: white;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 12px;
+}
+.listPeeps {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+.listPeeps,
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 550;
+}
+.thumbPeeps {
+  border-radius: 50%;
+  padding: 10px;
+}
+.capitalize {
+  text-transform: capitalize;
+}

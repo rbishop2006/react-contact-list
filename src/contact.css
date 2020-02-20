@@ -1,0 +1,32 @@
+.singleViewContainer {
+  width: 425px;
+  margin: 50px auto;
+
+  font-family: sans-serif;
+}
+.imageWrapper {
+  background-color: rgb(143, 186, 79);
+  display: flex;
+  justify-content: center;
+  padding: 20px 35px 35px 35px;
+}
+.leftArrow {
+  background-color: rgb(143, 186, 79);
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.largeImage {
+  border-radius: 50%;
+}
+.contactInfo {
+  margin: 0;
+  height: 50px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+svg {
+  margin-left: 10px;
+  margin-right: 10px;
+}
